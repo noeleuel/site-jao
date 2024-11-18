@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(99, 107, 136);
+    color: aliceblue;
+    }
+    
+    .cabeçalho {
+        background-color:  rgb(10, 48, 82);
+        color: aliceblue;
+    }
+
+        p{
+            color: black;
+        }
+
+
+        .carousel-item img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover; /* mantém a imagem proporicnal a div */
+        }
+
+
+/* segynda parte */
+
+        .container-pai{
+            display: flex;
+            padding: 25px;
+            justify-content: space-evenly;
+            background-color: #4b6b85;
+            flex-wrap: wrap;
+            gap: 10px;
+            
+            }
+            
+            .container-filho{
+            background-color: rgb(4, 54, 93);
+            width: 200px;
+            font-family: monospace;
+            color: azure;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            
+            }
+            
+            .container-filho:hover{
+            transform: translateY(-5px);
+            background-color: rgb(109, 124, 144);
+            box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+            
+            }
+            
+            .imagens {
+            width: 70%; /*tamanho das imagens*/
+            border-radius: 10%; /*cantos arredondados*/
+            
+            }
